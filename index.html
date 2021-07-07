@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-201484857-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-201484857-1');
-</script> -->
-
   <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -76,12 +65,16 @@
         </ul>
       </li>
       <li class="menu-lista-item">
+        <!-- evento entre_em_contato -->
         <a href="http://www.dp6.com.br/contato/" target="_blank" class="menu-lista-link menu-lista-contato"
         onclick="ga('send', {'hitType': 'event', 'eventCategory': 'menu', 'eventAction': 'entre_em_contato', 'eventLabel': 'link_externo' });"
         >Entre em Contato</a>
       </li>
       <li class="menu-lista-item">
-        <a href="http://autos.dp6.com.br/autos_revista_vfinal.pdf" class="menu-lista-link menu-lista-download" target="_pdf">Download PDF</a>
+        <!-- evento download_pdf -->
+        <a href="http://autos.dp6.com.br/autos_revista_vfinal.pdf" class="menu-lista-link menu-lista-download"
+        onclick="ga('send', {'hitType': 'event', 'eventCategory': 'menu', 'eventAction': 'download_pdf', 'eventLabel': 'download_pdf' });"
+        target="_pdf">Download PDF</a>
       </li>
     </ul>
     <div class="menu-rodape">
