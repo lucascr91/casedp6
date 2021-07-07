@@ -11,7 +11,6 @@ function download_pdf() {
 //     ga('send', {'hitType': 'event', 'eventCategory': 'analise', 'eventAction': 'ver_mais', 'eventLabel': name });
 // }
 
-function image_click(img) {
-    var src = img.src;
-    window.open(src);
+function latim_button() {
+    ga('send', {'hitType': 'event', 'eventCategory': 'analise', 'eventAction': 'ver_mais', 'eventLabel': name });
 }
