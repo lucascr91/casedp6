@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DHFE4KH6CY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DHFE4KH6CY');
+</script>
   <meta charset="UTF-8">
   <title>DP6 Case - Prova Técnica</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" >
@@ -42,7 +51,9 @@
         <a href="sobre.html" class="menu-lista-link menu-lista-sobre">Sobre</a>
         <ul class="menu-sublista">
           <li class="menu-sublista-item">
-            <a href="sobre.html#contato" class="menu-sublista-link">Contato</a>
+            <a href="sobre.html#contato" class="menu-sublista-link" 
+            onclick="ga('send', {'hitType': 'event', 'eventCategory': 'menu', 'eventAction': 'entre_em_contato', 'eventLabel': 'link_externo' });"
+            >Contato</a>
           </li>
           <li class="menu-sublista-item">
             <a href="sobre.html#historia" class="menu-sublista-link">História</a>
