@@ -12,5 +12,5 @@ function download_pdf() {
 // }
 
 function latim_button() {
-    ga('send', {'hitType': 'event', 'eventCategory': 'analise', 'eventAction': 'ver_mais', 'eventLabel': name });
+    ga('send', {'hitType': 'event', 'eventCategory': 'analise', 'eventAction': 'ver_mais', 'eventLabel': 'Lorem' });
 }
