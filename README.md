@@ -6,6 +6,8 @@ Neste README apresento os screenshots que mostram que o tagueamento está funcio
 
 ### 2- Análise
 
+![analises](https://github.com/lucascr91/casedp6/blob/master/screenshot/analise.png)
+
 ### 3- Sobre
 
 ![analises](https://github.com/lucascr91/casedp6/blob/master/screenshot/sobre.png)
