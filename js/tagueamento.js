@@ -9,5 +9,10 @@ const download_pdf = () => {
 const latim_button = (obj) => {
     let name = $(obj).data('name');
     ga('send', {'hitType': 'event', 'eventCategory': 'analise', 'eventAction': 'ver_mais', 'eventLabel': name});
+}
+
+const form_fill = (obj) => {
+    let name = obj.id;
+    ga('send', {'hitType': 'event', 'eventCategory': 'contato', 'eventAction': name, 'eventLabel': "preencheu"});
     console.log(name);
 }
