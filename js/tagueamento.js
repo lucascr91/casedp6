@@ -7,6 +7,6 @@ const download_pdf = () => {
 }
 
 const latim_button = (obj) => {
-    let name = $(obj).text();
+    let name = obj.alt;
     ga('send', {'hitType': 'event', 'eventCategory': 'analise', 'eventAction': 'ver_mais', 'eventLabel': name});
 }
