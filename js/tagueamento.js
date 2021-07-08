@@ -2,15 +2,11 @@ const entre_em_contato = () => {
     ga('send', {'hitType': 'event', 'eventCategory': 'menu', 'eventAction': 'entre_em_contato', 'eventLabel': 'link_externo' });
 }
 
-function download_pdf() {
+const download_pdf = () => {
     ga('send', {'hitType': 'event', 'eventCategory': 'menu', 'eventAction': 'download_pdf', 'eventLabel': 'download_pdf' });
 }
 
-// function image_click(img) {
-//     var name = img.alt;
-//     ga('send', {'hitType': 'event', 'eventCategory': 'analise', 'eventAction': 'ver_mais', 'eventLabel': name });
-// }
-
-function latim_button() {
-    ga('send', {'hitType': 'event', 'eventCategory': 'analise', 'eventAction': 'ver_mais', 'eventLabel': 'Lorem' });
+const latim_button = (obj) => {
+    let name = $(obj).text();
+    ga('send', {'hitType': 'event', 'eventCategory': 'analise', 'eventAction': 'ver_mais', 'eventLabel': name});
 }
