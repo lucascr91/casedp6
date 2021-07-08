@@ -14,5 +14,8 @@ const latim_button = (obj) => {
 const form_fill = (obj) => {
     let name = obj.id;
     ga('send', {'hitType': 'event', 'eventCategory': 'contato', 'eventAction': name, 'eventLabel': "preencheu"});
-    console.log(name);
+}
+
+const envia_form  = () => {
+    ga('send', {'hitType': 'event', 'eventCategory': 'contato', 'eventAction': 'enviado', 'eventLabel': "enviado"});
 }
