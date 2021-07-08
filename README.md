@@ -2,7 +2,7 @@ Neste README apresento os screenshots que mostram que o tagueamento está funcio
 
 ### 1- Todas as páginas
 
-(analises)[]
+(analises)[https://github.com/lucascr91/casedp6/blob/master/screenshot/sobre.png]
 
 ### 2- Análise
 
